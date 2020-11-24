@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@font-face {
+    font-family: 'moontimeregular';
+    src: url('moontime-regular-webfont.woff2') format('woff2'),
+         url('moontime-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@-webkit-keyframes change{
+    0%   {background-image: url("bg1.png");}
+   10%   {background-image: url("bg1.png");}
+   20%   {background-image: url("bg2.png");}
+   30%   {background-image: url("bg3.png");}
+   40%  {background-image: url("bg1.png");}
+   50%  {background-image: url("bg2.png");}
+   60%  {background-image: url("bg3.png");}
+   70%  {background-image: url("bg1.png");}
+   80%  {background-image: url("bg2.png");}
+   90%  {background-image: url("bg3.png");}
+   100%  {background-image: url("bg1.png");}
+}
+
+body{
+    -webkit-animation: change 5s infinite;
+    display: flex;
+}
+
+h1{
+    position: relative;
+    font-size: 100px;
+    margin-left: 300px;
+    margin-top: 260px;
+    font-family: 'moontimeregular';
+}
+
+h3{
+    display: flex;
+    position: absolute;
+    margin-left:-430px;
+    margin-top: 400px;
+    font-family: 'Hi Melody', cursive;
+    font-size: 40px;
+}
+
+p{
+    position: relative;
+    margin-left: 110px;
+    font-family: 'Pangolin', cursive;
+    font-size: 30px;
+}
+
+.one{
+    transform: rotate(355deg);
+}
+
+.two{
+    transform: rotate(3.6deg);
+}
+
+#a1{
+    margin-top: 25px;
+}
+
+#a2{
+    margin-top: 46px;
+}
+
+#a3{
+    margin-top: 46px;
+    margin-left: 125px;
+}
+
+#a4{
+    margin-top: 45px;
+    transform: rotate(6deg);
+}
+
+#a5{
+    margin-top: 48px;
+    transform: rotate(356deg);
+}
+
+#a6{
+    margin-left:125px ;
+    margin-top: 50px;
+    transform: rotate(6deg);
+}
+
+#a7{
+    margin-top: 43px;
+    margin-left: 133px;
+}
+
+#a8{
+    margin-top: 45px;
+}
+
+#a9{
+    margin-top: 43px;
+    margin-left: 122px;
+}
+
+
+

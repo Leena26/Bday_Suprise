@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+@font-face {
+    font-family: 'moontimeregular';
+    src: url('moontime-regular-webfont.woff2') format('woff2'),
+         url('moontime-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#h1{
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    font-family: 'moontimeregular';
+    }
+    
+    #button{
+            text-decoration: none;
+            color: white;
+            background-color: lightcoral;
+            padding: 15px;
+            border-radius: 40px;
+            font-family: cursive;
+            font-size: 20px;
+    }
+    body{
+        background: url("./bgthanks.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+    }
+    #wish{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+     }
+    #div-1{
+        margin-top: 300px;
+    }
+
+ 

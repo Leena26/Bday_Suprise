@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@font-face {
+    font-family: 'moontimeregular';
+    src: url('moontime-regular-webfont.woff2') format('woff2'),
+         url('moontime-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(./image.png);
+    background-size: cover;
+    display: flex;
+}
+
+h1, h2{
+    font-family: 'moontimeregular';
+}
+h1{
+    font-size: 130px;
+}
+h2{
+    font-size: 110px;
+}
+
+p{
+    font-size: 25px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 220px;
+    margin-left: 110px;
+}
